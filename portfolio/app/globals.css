@@ -31,11 +31,30 @@ body {
     text-wrap: balance;
   }
 }
-
 @keyframes fade-in {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
 .animate-fade-in {
   animation: fade-in 7s ease-out;
+}
+.carousel-inner {
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+}
+
+.carousel-prev,
+.carousel-next {
+  font-size: 1.5rem;
+}
+
+.carousel-prev {
+  transform: translateY(-50%);
+}
+
+.carousel-next {
+  transform: translateY(-50%);
 }
