@@ -5,7 +5,7 @@ const NavigationBar = () => {
     <nav className="text-white font-bold flex items-center justify-between w-full fixed bg-gray-900">
     
       <div className="flex items-center">
-        <img className="w-20 h-20 rounded-full overflow-hidden object-cover" src="/images/logo.jpg" alt="Logo" />
+        <img className="w-12 h-12 rounded-full overflow-hidden object-cover" src="/images/logo.jpg" alt="Logo" />
       </div>
 
       <div className="flex-grow flex justify-center">

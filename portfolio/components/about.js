@@ -1,9 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
 
 const About = () => {
   return (
-    <div id="about" className = "mx-auto bg-gray-900 max-w-6xl">
+    <div id="about" className = "h-screen mx-auto bg-gray-900 max-w-6xl">
       <h1 className = "text-6xl font-bold text-white"> 
       <br />/about me/<br /><br />
       </h1>
