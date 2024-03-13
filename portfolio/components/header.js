@@ -6,7 +6,7 @@ const Header = () => {
       <div className="grid place-items-center">
         <h1 className="text-8xl font-bold text-white">
           hi, it's{' '}
-          <span className="text-blue-400 animate-fade-in">
+          <span className="text-blue-500 animate-fade-in">
             Alassane.<br /><br />
           </span>{' '}
         </h1>
@@ -22,5 +22,4 @@ const Header = () => {
     </header>
   );
 };
-
 export default Header;
