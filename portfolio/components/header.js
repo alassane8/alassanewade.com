@@ -33,7 +33,7 @@ const Header = () => {
                   to create what one has in mind.<br /><br /><br />
             </p>
           </div>
-          <button class="border-white border-t-4 border-l-4 border-r-4 border-b-4 bg-gray-900 text-2xl text-white font-bold px-7 py-7 rounded-md hover:scale-110 hover:text-blue-300 ">
+          <button class="border-white border-t-4 border-l-4 border-r-4 border-b-4 bg-gray-900 text-2xl text-white font-bold px-7 py-7 rounded-md hover:scale-110 hover:text-blue-500 hover:border-blue-500">
           <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRpccgnBHnpWBsdDfwHSHRzHXmJPKrJTFcDgdpKTLwMKLzBfGDJrtXszGHmhcktHdsbSwNV">Contact me!</a>
           </button>
 
