@@ -3,8 +3,11 @@ import React from 'react';
 const NavigationBar = () => {
 
   return (
-    <nav className="text-white font-bold flex items-center justify-between fixed top-0 w-full bg-gray-900">
+    <nav className="text-white font-bold flex items-center justify-between fixed top-0 w-full bg-gray-9 00">
       <div className="flex items-center">
+        <div className="rounded-full overflow-hidden">
+          <img className="object-cover w-full h-full" src="logo.jpg" alt="Logo"></img>
+        </div>
         <p className="text-blue-500 font-bold mr-4">
           Alassane WADE
         </p>
