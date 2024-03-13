@@ -2,8 +2,9 @@ import React from 'react';
 
 const About = () => {
   return (
-    <header>
-    </header>
+    <div id="about">
+      
+    </div>
   );
 };
 export default About;
