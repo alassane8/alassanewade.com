@@ -7,16 +7,16 @@ const NavigationBar = () => {
       <p class="text-white font-bold mr-4">
         Alassane WADE
       </p>
-      <button class="text-white font-bold py-2 px-4 transition-transform hover:scale-105">
+      <button class="text-white font-bold py-2 px-4 transition-transform hover:scale-105 hover:text-blue-500">
         Home
       </button>
-      <button class="text-white font-bold py-2 px-4 transition-transform hover:scale-105">
+      <button class="text-white font-bold py-2 px-4 transition-transform hover:scale-105 hover:text-blue-500">
         About
       </button>
-      <button class="text-white font-bold py-2 px-4 transition-transform hover:scale-105">
+      <button class="text-white font-bold py-2 px-4 transition-transform hover:scale-105 hover:text-blue-500">
         Experiences
       </button>
-      <button class="text-white font-bold py-2 px-4 transition-transform hover:scale-105">
+      <button class="text-white font-bold py-2 px-4 transition-transform hover:scale-105 hover:text-blue-500">
         Projects
       </button>
     </nav>
