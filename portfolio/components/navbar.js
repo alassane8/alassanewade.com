@@ -6,7 +6,7 @@ const NavigationBar = () => {
     
       <div className="flex items-center">
         <img className="w-12 h-12 rounded-full overflow-hidden object-cover" src="/images/logo.jpg" alt="Logo" />
-      </div>
+      </div>  
 
       <div className="flex-grow flex justify-center">
         <button className="text-white font-bold py-2 px-4 transition-transform hover:scale-105 hover:text-blue-500 mx-2">
