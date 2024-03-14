@@ -4,6 +4,7 @@ import NavigationBar from "../components/navbar.js";
 import About from "../components/about.js";
 import Experiences from "../components/experiences.js";
 import Projects from "../components/projects.js";
+import Footer from "../components/footer.js";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Experiences />
       <Projects />
+      <Footer />
     </main>
   );
 }
