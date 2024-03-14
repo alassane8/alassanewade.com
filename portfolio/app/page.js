@@ -8,7 +8,7 @@ import Experiences from "../components/experiences.js";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-900">
+    <main className="min-h-screen bg-gray-800">
     <NavigationBar/>
       <Header/>
       <About />
