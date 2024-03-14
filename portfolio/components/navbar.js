@@ -25,13 +25,13 @@ const NavigationBar = () => {
 
       <div className="flex items-center">
         <button className="text-white font-bold py-2 px-4 transition-transform hover:scale-105 hover:text-blue-500 mx-2">
-          #mail
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRpccgnBHnpWBsdDfwHSHRzHXmJPKrJTFcDgdpKTLwMKLzBfGDJrtXszGHmhcktHdsbSwNV">#mail</a>
         </button>
         <button className="text-white font-bold py-2 px-4 transition-transform hover:scale-105 hover:text-blue-500 mx-2">
-          #github
+        <a href="https://github.com/alassane8">#github</a>
         </button>
         <button className="text-white font-bold py-2 px-4 transition-transform hover:scale-105 hover:text-blue-500 mx-2">
-          #linkedin
+        <a href="https://www.linkedin.com/in/alassane-wade-91181725b/">#linkedin</a>
         </button>
       </div>
     </nav>
