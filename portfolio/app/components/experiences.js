@@ -11,3 +11,6 @@ const Experiences = () => {
   );
 };
 export default Experiences;
+
+
+      /*Omnes education london school, Ece Paris, Ariane Group*/
