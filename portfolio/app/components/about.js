@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div id="about" className = "h-screen mx-auto bg-gray-800 max-w-6xl">
+    <div id="about" className = "mx-auto bg-gray-800 max-w-6xl">
       <h1 className = "text-6xl font-bold text-white"> 
       <br />/about me/<br /><br />
       </h1>
@@ -54,7 +54,13 @@ const About = () => {
           </span><br />
         with my friends.
       </p>
+    <div className = "h-screen mx-auto bg-gray-800 max-w-6xl">
+      
+    </div>
     </div>
   );
 };
 export default About;
+      /*<div className = "float-right">  
+          <img src="images/my_photo.png" alt="my_photo" class="h-10 w-10"></img>
+      </div>*/
