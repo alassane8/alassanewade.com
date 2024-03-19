@@ -1,15 +1,16 @@
+import { Span } from 'next/dist/trace';
 import React from 'react';
 
 const Header = () => {
   return (
     <header>
-      <div id="home" className = "mx-auto bg-gray-800 h-screen max-w-6xl">
+      <div id="home" className = "mx-auto bg-gray-800 max-w-6xl">
         <div className="grid place-items-center">
             <h1 className="text-8xl font-bold text-white">
               <br />hi, it's{' '}
-              <button className="text-blue-300 animate-fade-in hover:scale-105">
+              <span className="text-blue-300 animate-fade-in">
                 Alassane
-              </button>{' '}
+              </span>{' '}
               !<br /><br />
             </h1>
             <div className="grid place-items-center">
