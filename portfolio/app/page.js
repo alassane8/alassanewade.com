@@ -9,12 +9,12 @@ import Experiences from ".//components/experiences.js";
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-800">
-    <NavigationBar className = "fixed"/>
+      <NavigationBar/>
       <Header/>
-      <About />
-      <Experiences />
-      <Projects />
-      <Footer />
+      <About/>
+      <Experiences/>
+      <Projects/>
+      <Footer/>
     </main>
   );
 }

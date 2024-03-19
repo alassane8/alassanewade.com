@@ -7,7 +7,7 @@ const Projects = () => {
         <br />/projects/<br /><br />
       </h1>
       <div className="grid grid-cols-3 gap-5">
-        <div className="p-4 block rounded-lg bg-gray-700 hover:scale-105 hover:bg-gray-600">   
+        <div className="p-4 block rounded-lg bg-gray-700 hover:scale-105 hover:bg-gray-600">
           <button className="text-white font-bold mx-2">
             <img src="images/folder.png" alt="Folder" className="h-6 w-6"></img>
           </button>
