@@ -17,6 +17,9 @@ const NavigationBar = () => {
           <button className="text-white font-bold py-2 px-4 transition-transform hover:scale-105 hover:text-blue-300 mx-2">
             <a href="#projects">projects</a>
           </button>
+          <button className="text-white font-bold py-2 px-4 transition-transform hover:scale-105 hover:text-blue-300 mx-2">
+            <a href="#hobbies">hobbies</a>
+          </button>
         </div>
         <div className="flex items-center">
           <button className="text-white font-bold py-2 px-4 transition-transform hover:scale-110 hover:text-blue-300 mx-2">
