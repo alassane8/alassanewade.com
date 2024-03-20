@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div id="hobbies" className = "mx-auto bg-gray-800 max-w-6xl">
-      <h1 className = "text-6xl font-bold text-white hover:text-7xl"> 
+      <h1 className = "text-6xl font-bold text-white"> 
       <br />hobbies<br /><br />
       </h1> 
       <p className="text-xl text-white">
