@@ -4,8 +4,8 @@ const Projects = () => {
   return (
     <div id="projects" className="mx-auto bg-gray-800 max-w-6xl">
 
-      <h1 className="text-6xl font-bold text-white hover:text-blue-300">
-        projects<br /><br />
+      <h1 className="text-6xl font-bold text-white hover:text-7xl">
+      <br />projects<br /><br />
       </h1>
 
       <div className="grid grid-cols-3 gap-5">

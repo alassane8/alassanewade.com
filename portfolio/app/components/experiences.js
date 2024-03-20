@@ -4,8 +4,8 @@ const Experiences = () => {
 
   return (
     <div id="experiences" className = "mx-auto bg-gray-800 max-w-6xl">
-      <h1 className = "text-6xl font-bold text-white hover:text-blue-300"> 
-      experiences<br /><br />
+      <h1 className = "text-6xl font-bold text-white hover:text-7xl"> 
+      <br />experiences<br /><br />
       </h1>
       
     <div className = "h-screen mx-auto bg-gray-800 max-w-6xl">
