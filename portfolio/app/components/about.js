@@ -8,6 +8,35 @@ const About = () => {
         <div class="border-t border-gray-600"></div>
         <br />
       </h1>
+      <div className = "float-right">
+      <div className="max-w-sm rounded overflow-hidden shadow-lg hover:scale-105 bg-gray-900">
+          <img className="w-full" src="/images/Alassane.jpeg" alt="ArianeGroup"></img>
+          <div className="px-6 py-4">
+            <div className="font-bold text-3xl text-white hover:scale-105">
+              Alassane WADE
+            </div>
+          </div>
+        <div class="flex">
+          <div className="px-6 py-4">
+            <div className="text-white font-bold text-xl mb-2">About:</div>
+            <div class="text-gray-300">
+                <li className = "hover:text-blue-300 hover:font-bold">21 years old</li>
+                <li className = "hover:text-blue-300 hover:font-bold">Paris, FRANCE</li>
+                <li className = "hover:text-blue-300 hover:font-bold">Driver License</li>
+                <li className = "hover:text-blue-300 hover:font-bold">Personal car</li>
+            </div>
+          </div>
+          <div className="px-6 py-4">
+            <div className="text-white font-bold text-xl mb-2">Soft Skills:</div>
+            <div class="text-gray-300">
+                <li className = "hover:text-blue-300 hover:font-bold">Creativity</li>
+                <li className = "hover:text-blue-300 hover:font-bold">Communication</li>
+                <li className = "hover:text-blue-300 hover:font-bold">Adaptativity</li>
+                <li className = "hover:text-blue-300 hover:font-bold">Team work</li>
+            </div>
+          </div></div>
+        </div>
+      </div>
         <p className="text-xl text-white">
         <br /> {/* New paragraph */}
         &emsp;&emsp;I am a {' '}
@@ -32,15 +61,15 @@ const About = () => {
             Here are some technologies I have been working with:<br /><br />
         </p>
         <div class="flex">
-          <div class="w-1/4 text-xl text-white">
+          <div class="w-1/3 text-xl text-white">
               <li className = "hover:text-blue-300 hover:font-bold">JavaScript</li>
               <li className = "hover:text-blue-300 hover:font-bold">React.js</li>
               <li className = "hover:text-blue-300 hover:font-bold">Three.js</li>
           </div>
-          <div class="w-2/4 text-xl text-white">
+          <div class="w-2/3 text-xl text-white">
               <li className = "hover:text-blue-300 hover:font-bold">Python</li>
-              <li className = "hover:text-blue-300 hover:font-bold">Java</li>
-              <li className = "hover:text-blue-300 hover:font-bold">C#</li>
+              <li className = "hover:text-blue-300 hover:font-bold">Java, C#</li>
+              <li className = "hover:text-blue-300 hover:font-bold">C, C++</li>
           </div>
       </div>
       <p className="text-xl text-white"><br />
@@ -56,6 +85,17 @@ const About = () => {
           <strong>outside adventures</strong>
           </span><br />
         with my friends.
+        In addition, I practice daily physical<br /> 
+        activity  with {' '}
+        <span className="text-blue-300">
+        <strong>athletic training</strong>
+        </span>.
+        I specialize in {' '}
+        <span className="text-blue-300">
+        <strong>100 and<br />200 meters races</strong>
+        </span>.
+      </p>
+      <p>
       </p>
     </div>
   );
