@@ -7,7 +7,7 @@ const Experiences = () => {
 
       <h1 className = "text-6xl font-bold text-white"> 
         <br /><br />experiences
-        <div class="border-t border-gray-600"></div>
+        <div className="border-t border-gray-600"></div>
         <br /><br />
       </h1>
 

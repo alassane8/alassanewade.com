@@ -5,7 +5,7 @@ const About = () => {
     <div id="about" className = "mx-auto bg-gray-800 max-w-6xl">
       <h1 className = "text-6xl font-bold text-white"> 
       <br /><br />about me
-        <div class="border-t border-gray-600"></div>
+        <div className="border-t border-gray-600"></div>
         <br />
       </h1>
       <div className = "float-right">
@@ -16,10 +16,10 @@ const About = () => {
               Alassane WADE
             </div>
           </div>
-        <div class="flex">
+        <div className="flex">
           <div className="px-6 py-4">
             <div className="text-white font-bold text-xl mb-2">About:</div>
-            <div class="text-gray-300">
+            <div className="text-gray-300">
                 <li className = "hover:text-blue-300 hover:font-bold">21 years old</li>
                 <li className = "hover:text-blue-300 hover:font-bold">Paris, FRANCE</li>
                 <li className = "hover:text-blue-300 hover:font-bold">Driver License</li>
@@ -28,7 +28,7 @@ const About = () => {
           </div>
           <div className="px-6 py-4">
             <div className="text-white font-bold text-xl mb-2">Soft Skills:</div>
-            <div class="text-gray-300">
+            <div className="text-gray-300">
                 <li className = "hover:text-blue-300 hover:font-bold">Creativity</li>
                 <li className = "hover:text-blue-300 hover:font-bold">Communication</li>
                 <li className = "hover:text-blue-300 hover:font-bold">Adaptativity</li>
@@ -60,13 +60,13 @@ const About = () => {
           </span>.<br /><br /><br />
             Here are some technologies I have been working with:<br /><br />
         </p>
-        <div class="flex">
-          <div class="w-1/3 text-xl text-white">
+        <div className="flex">
+          <div className="w-1/3 text-xl text-white">
               <li className = "hover:text-blue-300 hover:font-bold">JavaScript</li>
               <li className = "hover:text-blue-300 hover:font-bold">React.js</li>
               <li className = "hover:text-blue-300 hover:font-bold">Three.js</li>
           </div>
-          <div class="w-2/3 text-xl text-white">
+          <div className="w-2/3 text-xl text-white">
               <li className = "hover:text-blue-300 hover:font-bold">Python</li>
               <li className = "hover:text-blue-300 hover:font-bold">Java, C#</li>
               <li className = "hover:text-blue-300 hover:font-bold">C, C++</li>
@@ -102,5 +102,5 @@ const About = () => {
 };
 export default About;
       /*<div className = "float-right">  
-          <img src="images/my_photo.png" alt="my_photo" class="h-10 w-10"></img>
+          <img src="images/my_photo.png" alt="my_photo" className="h-10 w-10"></img>
       </div>*/
