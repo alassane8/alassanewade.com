@@ -13,13 +13,10 @@ const NavigationBar = () => {
               <a href="#about">about</a>
             </button>
             <button className="text-white py-2 px-4 transition-transform hover:scale-105 hover:text-blue-300 hover:font-bold mx-2">
-              <a href="#experiences">experiences</a>
-            </button>
-            <button className="text-white py-2 px-4 transition-transform hover:scale-105 hover:text-blue-300 hover:font-bold mx-2">
               <a href="#projects">projects</a>
             </button>
             <button className="text-white py-2 px-4 transition-transform hover:scale-105 hover:text-blue-300 hover:font-bold mx-2">
-              <a href="#hobbies">hobbies</a>
+              <a href="#experiences">experiences</a>
             </button>
           </div>
           <div className="flex">

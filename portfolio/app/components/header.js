@@ -25,7 +25,7 @@ const Header = () => {
                     to create what one has in mind.<br /><br /><br />
               </p>
             </div>
-            <button class="border-white border-t-4 border-l-4 border-r-4 border-b-4 bg-gray-800 text-2xl text-white font-bold px-4 py-4 rounded hover:scale-110 hover:text-blue-300 hover:border-blue-300">
+            <button className="border-white border-t-4 border-l-4 border-r-4 border-b-4 bg-gray-800 text-2xl text-white font-bold px-4 py-4 rounded hover:scale-110 hover:text-blue-300 hover:border-blue-300">
               <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRpccgnBHnpWBsdDfwHSHRzHXmJPKrJTFcDgdpKTLwMKLzBfGDJrtXszGHmhcktHdsbSwNV">
                 <div align="center">
                   <img src="images/email.png" alt="Email" class="h-10 w-10"></img>
@@ -35,8 +35,6 @@ const Header = () => {
             </button>
           </div>
           </div>
-        <div className = "h-screen mx-auto bg-gray-800 max-w-6xl">
-      </div>
     </header>
   );
 };

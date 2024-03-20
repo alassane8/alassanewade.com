@@ -5,7 +5,9 @@ const Projects = () => {
     <div id="projects" className="mx-auto bg-gray-800 max-w-6xl">
 
       <h1 className="text-6xl font-bold text-white">
-      <br /><br />projects<br /><br />
+      <br /><br />projects
+        <div class="border-t border-gray-600"></div>
+        <br /><br />
       </h1>
 
       <div className="grid grid-cols-3 gap-5">
@@ -100,12 +102,8 @@ const Projects = () => {
             </p>
           </div>
         </a>
-
+        
       </div>
-
-      <div className="h-screen mx-auto bg-gray-800 max-w-6xl">
-      </div>
-
     </div>
   );
 };
