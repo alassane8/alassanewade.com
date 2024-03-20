@@ -17,19 +17,10 @@ const Header = () => {
               <p className="text-5xl font-bold text-white">
                 I like to code and create things.<br /><br />
               </p>
-              <p className="text-xl font-bold text-white">
-              &emsp;&emsp;&emsp;I am a {' '}
+              <p className="text-xl text-white">
+              &emsp;I enjoy very much programming languages as it offers <br />{' '}
                   <span className="text-blue-300">
-                    Software Engineer
-                  </span>{' '}
-                  from {' '}
-                  <span className="text-blue-300">
-                    Paris
-                  </span>
-                  , in France<br />
-                  and I enjoy very much programming languages as it offers <br />{' '}
-                  <span className="text-blue-300">
-                  &emsp;countless possiblities
+                  &emsp;<strong>countless possiblities</strong>
                   </span>{' '}
                     to create what one has in mind.<br /><br /><br />
               </p>

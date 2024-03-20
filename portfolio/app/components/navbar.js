@@ -2,8 +2,9 @@ import React from 'react';
 
 const NavigationBar = () => {
   return (
-    <div id="about" className="mx-auto bg-gray-800 max-w-6xl">
-      <div className="text-white font-bold flex items-center bg-gray-800">
+    <div id="navbar" className=" mx-auto bg-gray-800 max-w-6xl">
+    <div className = "fixed">
+    <div className="text-white font-bold flex items-center bg-gray-800  ">
         <div className="flex items-center w-full">
           <button className="text-white font-bold py-2 px-4 transition-transform hover:scale-105 hover:text-blue-300 mx-2">
             <a href="#home">home</a>
@@ -21,7 +22,7 @@ const NavigationBar = () => {
             <a href="#hobbies">hobbies</a>
           </button>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center ">
           <button className="text-white font-bold py-2 px-4 transition-transform hover:scale-110 hover:text-blue-300 mx-2">
             <a href="https://github.com/alassane8">
               <img src="images/github.png" alt="Github" className="h-8 w-11"></img>
@@ -34,6 +35,8 @@ const NavigationBar = () => {
           </button>
         </div>
       </div>
+    </div>
+      
     </div>
   );
 };

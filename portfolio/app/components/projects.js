@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div id="projects" className="mx-auto bg-gray-800 max-w-6xl">
 
-      <h1 className="text-6xl font-bold text-white">
+      <h1 className="text-6xl font-bold text-white hover:text-blue-300">
         projects<br /><br />
       </h1>
 
@@ -19,8 +19,8 @@ const Projects = () => {
               className="mb-6 text-xl leading-tight text-white font-bold hover:text-blue-300">
               Battleship
             </h5>
-            <p className="mb-4 text-base text-gray-400 font-bold">
-              Battleship game developped in C completed and ready to be played
+            <p className="mb-4 text-base text-gray-400">
+              Battleship game developped in <strong>C language</strong> completed and ready to be played
             </p>
           </div>
         </a>
@@ -34,8 +34,8 @@ const Projects = () => {
               className="mb-6 text-xl leading-tight  text-white font-bold hover:text-blue-300">
               Electrocardiogram
             </h5>
-            <p className="mb-4 text-base text-gray-400 font-bold">
-              Electrocardiogram in C++ using Arduino boards in progress
+            <p className="mb-4 text-base text-gray-400">
+              Electrocardiogram in <strong>C++ using Arduino boards</strong> in progress
             </p>
           </div>
         </a>
@@ -49,8 +49,8 @@ const Projects = () => {
               className="mb-6 text-xl leading-tight text-white font-bold hover:text-blue-300">
               Tic-Tac-Toe
             </h5>
-            <p className="mb-4 text-base text-gray-400 font-bold">
-              Tic-Tac-Toe game developped with JAVA completed and ready to be played
+            <p className="mb-4 text-base text-gray-400">
+              Tic-Tac-Toe game developped with <strong>Java</strong> completed and ready to be played
             </p>
           </div>
         </a>
@@ -64,8 +64,8 @@ const Projects = () => {
               className="mb-6 text-xl leading-tight text-white font-bold hover:text-blue-300">
               Starbucks
             </h5>
-            <p className="mb-4 text-base text-gray-400 font-bold">
-              C# Windows Form Application for Starbucks management in progress
+            <p className="mb-4 text-base text-gray-400">
+              <strong>C# Windows Form Application</strong> for Starbucks management in progress
             </p>
           </div>
         </a>
@@ -80,8 +80,8 @@ const Projects = () => {
               className="mb-6 text-xl leading-tight text-white font-bold hover:text-blue-300">
               alassanewade.com
             </h5>
-            <p className="mb-4 text-base text-gray-400 font-bold">
-              Online resume in progress using Next.js, React and Tailwind CSS in progress
+            <p className="mb-4 text-base text-gray-400">
+              Online resume in progress using <strong>Next.js, React and Tailwind CSS</strong> in progress
             </p>
           </div>
         </a>
