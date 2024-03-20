@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div id="about" className = "mx-auto bg-gray-800 max-w-6xl">
       <h1 className = "text-6xl font-bold text-white"> 
-      <br />/about me/<br /><br />
+      about me<br /><br />
       </h1>
         <p className="text-xl font-bold text-white">
         <br /> {/* New paragraph */}

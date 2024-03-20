@@ -5,7 +5,7 @@ const Projects = () => {
     <div id="projects" className="mx-auto bg-gray-800 max-w-6xl">
 
       <h1 className="text-6xl font-bold text-white">
-        <br />/projects/<br /><br />
+        projects<br /><br />
       </h1>
 
       <div className="grid grid-cols-3 gap-5">
@@ -81,7 +81,7 @@ const Projects = () => {
               alassanewade.com
             </h5>
             <p className="mb-4 text-base text-gray-400 font-bold">
-              Online resume in progress using Next.js, React and Tailwind CSS
+              Online resume in progress using Next.js, React and Tailwind CSS in progress
             </p>
           </div>
         </a>

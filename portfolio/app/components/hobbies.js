@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div id="hobbies" className = "mx-auto bg-gray-800 max-w-6xl">
       <h1 className = "text-6xl font-bold text-white"> 
-      <br />/hobbies/<br /><br />
+      hobbies<br /><br />
       </h1> 
       <p className="text-xl font-bold text-white">
       &emsp;&emsp;When I am not coding, I am interested in multiple sort <br />of {' '}
