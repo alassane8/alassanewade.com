@@ -7,7 +7,7 @@ const Footer = () => {
         <br /><br />
         <div class="border-t border-gray-600"></div>
         <br /><br />
-            Copyrights &#xa9; 2023 Alassane WADE. All rights reserved.<br /><br />
+            Copyrights &#xa9; 2024 Alassane WADE. All rights reserved.<br /><br />
         </h1>
     </div>
   );

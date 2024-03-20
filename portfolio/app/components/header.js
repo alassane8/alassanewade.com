@@ -7,7 +7,7 @@ const Header = () => {
       <div id="home" className = "mx-auto bg-gray-800 max-w-6xl">
         <div className="grid place-items-center">
             <h1 className="text-8xl font-bold text-white">
-              <br />hi, it's{' '}
+              <br /><br />hi, it's{' '}
               <span className="text-blue-300 animate-fade-in">
                 Alassane
               </span>{' '}
@@ -18,9 +18,9 @@ const Header = () => {
                 I like to code and create things.<br /><br />
               </p>
               <p className="text-xl text-white">
-              &emsp;I enjoy very much programming languages as it offers <br />{' '}
+                &emsp;&emsp;I enjoy programming languages as it offers <br />{' '}
                   <span className="text-blue-300">
-                  &emsp;<strong>countless possiblities</strong>
+                  <strong>countless possiblities</strong>
                   </span>{' '}
                     to create what one has in mind.<br /><br /><br />
               </p>
@@ -32,7 +32,7 @@ const Header = () => {
                   Contact me!
                 </div>
               </a>
-            </button>
+            </button><br /><br />
           </div>
           </div>
     </header>
