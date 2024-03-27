@@ -3,15 +3,12 @@ import React from 'react';
 const Projects = () => {
   return (
     <div id="projects" className="mx-auto bg-gray-800 max-w-6xl">
-
       <h1 className="text-6xl font-bold text-white">
-      <br /><br />projects
+        <br /><br />projects
         <div className="border-t border-gray-600"></div>
         <br /><br />
       </h1>
-
       <div className="grid grid-cols-3 gap-5">
-
         <a href="https://github.com/alassane8/BattleShip">
           <div className="p-4 block rounded-lg overflow-hidden shadow-lg bg-gray-900 hover:scale-105 hover:bg-gray-700">
             <div className="text-white font-bold mx-2 my-2">
@@ -26,9 +23,8 @@ const Projects = () => {
             </p>
           </div>
         </a>
-        
         <a href="https://github.com/alassane8/Electrocardiogram">
-          <div className="p-4  block rounded-lg overflow-hidden shadow-lg bg-gray-900 hover:scale-105 hover:bg-gray-700">    
+          <div className="p-4  block rounded-lg overflow-hidden shadow-lg bg-gray-900 hover:scale-105 hover:bg-gray-700">
             <div className="text-white font-bold mx-2 my-2">
               <img src="images/folder.png" alt="Folder" className="h-6 w-6"></img>
             </div>
@@ -41,9 +37,8 @@ const Projects = () => {
             </p>
           </div>
         </a>
-        
         <a href="https://github.com/alassane8/Tic-Tac-Toe">
-          <div className="p-4 block rounded-lg overflow-hidden shadow-lg bg-gray-900 hover:scale-105 hover:bg-gray-700">    
+          <div className="p-4 block rounded-lg overflow-hidden shadow-lg bg-gray-900 hover:scale-105 hover:bg-gray-700">
             <div className="text-white font-bold mx-2 my-2">
               <img src="images/folder.png" alt="Folder" className="h-6 w-6"></img>
             </div>
@@ -56,9 +51,8 @@ const Projects = () => {
             </p>
           </div>
         </a>
-
         <a href="https://github.com/alassane8">
-          <div className="p-4 block rounded-lg overflow-hidden shadow-lg bg-gray-900 hover:scale-105 hover:bg-gray-700">    
+          <div className="p-4 block rounded-lg overflow-hidden shadow-lg bg-gray-900 hover:scale-105 hover:bg-gray-700">
             <div className="text-white font-bold mx-2 my-2">
               <img src="images/folder.png" alt="Folder" className="h-6 w-6"></img>
             </div>
@@ -71,10 +65,8 @@ const Projects = () => {
             </p>
           </div>
         </a>
-
-
         <a href="https://github.com/alassane8/alassanewade.com">
-          <div className="p-4 block rounded-lg overflow-hidden shadow-lg bg-gray-900 hover:scale-105 hover:bg-gray-700">    
+          <div className="p-4 block rounded-lg overflow-hidden shadow-lg bg-gray-900 hover:scale-105 hover:bg-gray-700">
             <div className="text-white font-bold mx-2 my-2">
               <img src="images/folder.png" alt="Folder" className="h-6 w-6"></img>
             </div>
@@ -87,7 +79,6 @@ const Projects = () => {
             </p>
           </div>
         </a>
-        
       </div>
     </div>
   );

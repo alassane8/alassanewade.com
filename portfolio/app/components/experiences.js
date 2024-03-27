@@ -3,17 +3,14 @@ import React from 'react';
 const Experiences = () => {
 
   return (
-    <div id="experiences" className = "mx-auto bg-gray-800 max-w-6xl">
-
-      <h1 className = "text-6xl font-bold text-white"> 
+    <div id="experiences" className="mx-auto bg-gray-800 max-w-6xl">
+      <h1 className="text-6xl font-bold text-white">
         <br /><br />experiences
         <div className="border-t border-gray-600"></div>
         <br /><br />
       </h1>
-
       <div className="grid grid-cols-3 gap-5">
-
-      <div className="max-w-sm rounded overflow-hidden shadow-lg hover:scale-105 bg-gray-900">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg hover:scale-105 bg-gray-900">
           <img className="w-full" src="/images/ArianeGroup.png" alt="ArianeGroup"></img>
           <div className="px-6 py-4">
             <div className="text-white font-bold text-xl hover:text-blue-300">
@@ -27,7 +24,7 @@ const Experiences = () => {
           </div>
           <div className="px-6 py-4">
             <p className="text-white text-xs">
-            April 15 to August 31 2024
+              April 15 to August 31 2024
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
@@ -42,9 +39,7 @@ const Experiences = () => {
             </div>
           </div>
         </div>
-        
       </div>
-
     </div>
   );
 };
